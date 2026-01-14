@@ -69,10 +69,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3          &bt BT_SEL 4                             &to 0   &to 3   &to 4    &trans   &trans   &trans
-&ext_power EP_ON   &trans        &kp EXCLAMATION  &kp AT        &kp HASH              &trans                                   &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
-&ext_power EP_OFF  &trans        &kp DOLLAR       &kp PERCENT   &kp CARET             &trans                                   &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
-&ext_power EP_TOG  &trans        &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3          &bt BT_SEL 4                             &to 0   &to 3   &to 4    &bt BT_CLR_ALL  &trans   &trans
+&ext_power EP_ON   &trans        &kp EXCLAMATION  &kp AT        &kp HASH              &trans                                   &trans  &kp F1  &kp F2   &kp F3          &kp F4   &trans
+&ext_power EP_OFF  &trans        &kp DOLLAR       &kp PERCENT   &kp CARET             &trans                                   &trans  &kp F5  &kp F6   &kp F7          &kp F8   &trans
+&ext_power EP_TOG  &trans        &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &trans  &trans  &kp F9  &kp F10  &kp F11         &kp F12  &trans
                                                   &trans        &trans                &trans                 &trans    &trans  &trans  &trans  &trans
             >;
 
